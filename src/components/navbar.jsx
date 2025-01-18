@@ -24,7 +24,6 @@ const Navbar=()=>{
                 <a href='#about'>About</a>
                 <a href='#project'>Projects</a>
                 <a href="#contact">Contact</a>
-                
                 </div>
             }
                 <img src={list} alt="" className='logo_pic menu' onClick={openmenu}/>

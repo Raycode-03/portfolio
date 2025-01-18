@@ -6,17 +6,17 @@ import whatsapp from "../images/social/whatsapp.png";
 function footer() {
   return (
     <div>
-          <footer class="hidden">
+          <footer class="hidden" id='contact'>
         <div class="img hidden" >
             
-            <img src={logo_pic} alt=""className='logo_pic_footer' id='contact'/>
+            <img src={logo_pic} alt=""className='logo_pic_footer' />
             </div>
             <div class="news">
                 <form action="" method='post' onsubmit="return false">
                     <h2>LET'S CONNECT</h2><br/>
-                    <p>Don't hesitate to send me a message if you'd like to chat or need help.My inbox is always open, I'm always happy to hear from you!! Feel free to message any of my accounts, anytime.</p>
+                    <p className='news_p'>Don't hesitate to send me a message if you'd like to chat or need help.My inbox is always open, I'm always happy to hear from you!! Feel free to message any of my accounts, anytime.</p>
                     <input type="email" placeholder="Enter your Email" class="new_input"/>
-                    <textarea name="" id="" cols='34' rows='1' placeholder='message to send' className='message'/>
+                    <textarea name="" id="" cols='34' rows='1' placeholder='Message to Send' className='message'/>
                     <button class="new_btn">Subscribe</button>
                 </form>
         </div>

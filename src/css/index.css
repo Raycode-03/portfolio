@@ -99,7 +99,7 @@ main{
 }
 #about{
     text-align: center;
-    font-size: larger;
+    
 }
 .product_h1{
     margin-bottom: 1rem;
@@ -115,7 +115,7 @@ main{
     padding: 0.2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    min-height:34rem;
+    min-height:31rem;
     overflow: hidden;
     text-align: center;
     font-size: x-large;
@@ -133,11 +133,9 @@ main{
     overflow: hidden;
     padding: 2rem;
     padding-top: 0;
-    
 }
 /* for the products part */
 .card_box{
-    
     display: grid; 
     grid-column-gap: 12rem;
     grid-template-columns: repeat(auto-fit,minmax(230px,330px));
@@ -149,15 +147,14 @@ main{
 }
 .one,.two,.three,.four,.five,.six,.seven{
     background-color: #ffff;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.8rem;
     border-radius: 1.2rem;
     padding: 0.45rem;
     font-size: x-large;
     box-shadow: 0px 0px 8px 1px;  
 }
-span>a{
-    text-decoration: none;
-    color:black;
+span>h5>a{
+    color:#383838;
 }
 span>a:hover{
     color: var(--primary-color);
@@ -166,7 +163,7 @@ span>a:hover{
     width: 18rem;
     height:16rem;
     object-fit: cover;
-    
+    margin-bottom: 1rem;
 }
 /* footer */
 
@@ -237,6 +234,7 @@ footer{
     width:6rem;
     padding: 1rem;
     text-align: center;
+    margin: 0 auto;
 }
 /* for the contact */
 .contact{
@@ -315,5 +313,5 @@ h3>b{
 /* for the icon resize */
 .social>a>img{
     width: 3.6rem;
-    margin-left: 0.4rem;
+    margin-left: 0.6rem;
 }

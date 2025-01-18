@@ -39,9 +39,8 @@
     main{
         display:block;
     }
-    .deals{
-        font-size: large;
-    }
+    
+
     .skills>ul{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -65,10 +64,29 @@
 }
 
 @media screen and (max-width:400px){
+    h1{
+        font-size: x-large;
+    }
     .deals{
+        font-size: small;
+    }
+    .skills>ul>li{
+        font-size: small;
+    }
+    .deal_h1{
+        font-size: x-large;
+    }
+    h2{
+        font-size: x-large;
+    }
+    .news_p{
+        font-size: small;
+    }
+    h3{
         font-size: medium;
     }
-    
-    
-
+    .social>a>img{
+        width: 2.6rem;
+        
+    }
 }

@@ -13,7 +13,7 @@ const Home_page=()=>{
     useEffect(()=>{
         setTimeout(()=>{
             setshowclock(false);
-        },7950)
+        },2950)
     },[])
     
     
@@ -28,14 +28,13 @@ const Home_page=()=>{
         <div id='showclock'>   
             {components[1]()}
             <div className="deals">
-            <h1 id='about'>About me</h1>
-            <img src={lap} alt="" className='video' />
-            <h1>Hello im Ray </h1>
+            <h1 id='about'>ABOUT ME</h1>
+            <img src={lap} alt="" className='video'/>
             <p>
-            Hi my name is Akerele Raymond, i am a passionate and results-oriented Frontend Developer with a strong foundation in HTML, CSS, JavaScript, React, PHP. I'm proficient in building responsive and user-friendly web applications that deliver exceptional user experiences. I'm eager to ccontribute my skills and creativity to challenging projects and collaborate with talented teams to bring innovative ideas to life.
+            Hi my name is Akerele Raymond, I am a passionate and results-oriented Frontend Developer with a strong foundation in HTML, CSS, JavaScript, React, PHP. I'm proficient in building responsive and user-friendly web applications that deliver exceptional user experiences. I'm eager to ccontribute my skills and creativity to challenging projects and collaborate with talented teams to bring innovative ideas to life.
             </p>
             <div className="skills">
-                <h2>Skills</h2>
+                <h2>SKILLS</h2>
                 <ul>
                     <li>JavaScript</li>
                     <li>Node.js</li>
@@ -51,7 +50,7 @@ const Home_page=()=>{
         </div>
             )}
         <div class="rbp">
-            <h1 className='deal_h1 product_h1' id='project'>Projects</h1>
+            <h2 className='deal_h1 product_h1' id='project'>Projects</h2>
             <div className="card">
                 <Card/>
             </div>
