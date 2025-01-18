@@ -1,0 +1,39 @@
+[
+       {
+        "id":"1",
+        "title":"Samsung S24",
+        "video":"../images/video/s22.mp4",
+        "price":"2000000"
+       },
+       {"id":"2",
+        "title":"Samsung S23",
+        "video":"../images/video/s23.mp4",
+        "price":"2000000"
+       },
+       {"id":"3",
+        "title":"Samsung S22",
+        "video":"../images/video/s22.mp4",
+        "price":"2000000"
+       },
+       {"id":"4",
+        "title":"Iphone 16",
+        "video":"../images/video/iphone16.mp4",
+        "price":"2000000"
+       },
+       {
+        "id":"5",
+        "title":"Iphone 15",
+        "video":"../images/video/iphone 15.mp4",
+        "price":"2000000"
+       },
+       {"id":"6",
+        "title":"Galaxy-ultra",
+        "video":"../images/video/galaxy-ultra.mp4",
+        "price":"2000000"
+       },
+       {"id":"7",
+        "title":"Apple-watch",
+        "video":"../images/video/apple_watch.mp4",
+        "price":"2000000"
+       }
+    ]

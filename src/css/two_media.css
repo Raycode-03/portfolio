@@ -1,0 +1,74 @@
+@media only screen and (max-width:1200px) {
+    /* for the menu bar */
+    
+    .form{
+        padding: 1.1rem;
+    width:30rem;
+    height:30rem;
+    }
+    .or{
+        width: 20rem;
+        padding-left: 2rem;
+    }
+}
+@media screen and (max-width:800px) {
+    body{
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* for the menu and the links  */
+    .list{
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .link{
+        display: none;
+    }
+    .text{
+        display: none;
+
+    }
+    .form{
+        padding: 1.1rem;
+    width:25rem;
+    height:30rem;
+    margin: 2px auto;
+    }
+    main{
+        display:block;
+    }
+    .deals{
+        font-size: large;
+    }
+    .skills>ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: minmax(min-content,max-content);
+    }
+    /* to reduce the size of the form */
+    h1{
+        font-size:30px;
+    }
+    .or{
+        width: 15rem;
+        padding-left: 2.5rem;
+    }
+    input{
+        width:16rem;
+    }
+    .form{
+        width: 25rem;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .deals{
+        font-size: medium;
+    }
+    
+    
+
+}
