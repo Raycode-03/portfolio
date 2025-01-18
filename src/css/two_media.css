@@ -50,9 +50,8 @@
     h1{
         font-size:30px;
     }
-    .or{
-        width: 15rem;
-        padding-left: 2.5rem;
+    .skills>ul>li{
+        font-size:small;
     }
     input{
         width:16rem;
@@ -71,7 +70,7 @@
         font-size: small;
     }
     .skills>ul>li{
-        font-size: small;
+        font-size: x-small;
     }
     .deal_h1{
         font-size: x-large;
