@@ -20,7 +20,8 @@ function Work() {
       title: "Raycode Portfolio",
       description: "Description for project three.", 
       image: "/images/Raycode_Portfolio.png",
-      github_link: "",
+      github_link: "https://github.com/Raycode-03/portfolio",
+      live_link: "",
     },
   ]
   return (
