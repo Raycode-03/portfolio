@@ -3,13 +3,14 @@ import Image from "next/image";
 import Navbar from "@/components/navbar"
 import Skill from "@/components/skill"
 import Work from "@/components/work"
+import Contact from "@/components/contact"
+import {  Download } from "lucide-react";
 export default async function Page() {
     return(
       <><Navbar/>
-        <header className="relative w-full h-screen"> {/* Use h-screen for full viewport height */}
-          
+     <header className="relative w-full h-screen">
   {/* Background Image */}
-  <div className="absolute inset-0 w-full h-full">
+  <div className="absolute inset-0 w-full h-full" id="home">
     <Image 
       src={"/images/computer.jpg"} 
       alt="Computer Background" 
@@ -17,13 +18,14 @@ export default async function Page() {
       className="object-cover opacity-90"
       priority
     />
-    {/* Optional overlay for better text readability */}
+    {/* Overlay */}
     <div className="absolute inset-0 bg-black/30"></div>
   </div>
   
   {/* Content Section */}
-  <section className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-    <div className="mt-4 flex items-center gap-6">
+  <section className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4 pt-24 sm:pt-0">
+    <div className="flex flex-col md:flex-row items-center gap-6 mb-6">
+      {/* Logo/Image */}
       <Image 
         src={"/images/raycode.jpg"} 
         alt="RayCode Logo" 
@@ -31,11 +33,13 @@ export default async function Page() {
         height={65}
         className="rounded-[33px]"
       />
-       <h1 className="text-4xl md:text-6xl font-bold mb-6 max-w-4xl">
-      Nice to meet you!
-      <br />
-       I&apos;m Akerele Raymond.
-    </h1>
+      
+      {/* Heading - will stack below image on mobile */}
+      <h1 className="text-4xl md:text-6xl font-bold max-w-4xl">
+        Nice to meet you!
+        <br />
+        I&apos;m Akerele Raymond.
+      </h1>
     </div>
    
     <p className="text-lg md:text-xl max-w-2xl mb-8 leading-relaxed">
@@ -43,11 +47,20 @@ export default async function Page() {
       that bridge the gap between user experience and business requirements. A self-taught professional dedicated to
        delivering impactful solutions.
     </p>
-    <a href="https://docs.google.com/document/d/1oXjtZ_oQT2Rmc_Pdqr0ikxfURezKkM-4Jyk1bwfKHP0/edit?usp=sharing" className="text-blue-300">Resume</a>
+    
+    <a 
+      href="https://docs.google.com/document/d/1oXjtZ_oQT2Rmc_Pdqr0ikxfURezKkM-4Jyk1bwfKHP0/edit?usp=sharing"
+      download="Akerele_Raymond_Resume.pdf"
+      className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+    >
+      <Download className="w-5 h-5 mr-2"/>
+      Download Resume
+    </a>
   </section>
-        </header>
+</header>
         <Skill/>
         <Work/>
+        <Contact/>
       </>
     )
 }
