@@ -21,7 +21,7 @@ function Work() {
     {
       title: "Raycode Portfolio",
       description: "Next js Tailwind Css", 
-      image: "/images/Raycode_Portfolio.png",
+      image: "/images/RayCode_Portfolio.png",
       github_link: "https://github.com/Raycode-03/portfolio",
       live_link: "https://portfolio-eight-azure-xdb4q5r3eo.vercel.app/",
     },
