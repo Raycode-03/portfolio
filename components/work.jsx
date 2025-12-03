@@ -19,11 +19,11 @@ function Work() {
       github_link: "https://github.com/Raycode-03/Social-app",
     },
     {
-      title: "Raycode Portfolio",
-      description: "Next js Tailwind Css", 
-      image: "/images/Raycodeportfolio.png",
-      github_link: "https://github.com/Raycode-03/portfolio",
-      live_link: "https://portfolio-eight-azure-xdb4q5r3eo.vercel.app/",
+      title: "BookHive Library App",
+      description: "React, Node.js, Express, MongoDB, JWT, Cron, Tailwind CSS, Cloudinary.", 
+      image: "/images/BookHive.png",
+      github_link: "https://github.com/Raycode-03/BookHive",
+      live_link: "https://book-hive-steel.vercel.app/",
     },
   ]
 
