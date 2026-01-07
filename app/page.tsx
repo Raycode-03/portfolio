@@ -43,7 +43,7 @@ export default async function Page() {
     </div>
    
     <p className="text-lg md:text-xl max-w-2xl mb-8 leading-relaxed">
-      Experienced Full-Stack Developer with 5+ years in the industry, specializing in creating intuitive digital products 
+      Experienced Full-Stack Developer with hands-on experience in the industry, specializing in creating intuitive digital products 
       that bridge the gap between user experience and business requirements. A self-taught professional dedicated to
        delivering impactful solutions.
     </p>
