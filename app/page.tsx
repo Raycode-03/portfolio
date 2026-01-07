@@ -43,8 +43,9 @@ export default async function Page() {
     </div>
    
     <p className="text-lg md:text-xl max-w-2xl mb-8 leading-relaxed">
-      Experienced Full-Stack Developer with hands-on experience in the industry, specializing in creating intuitive digital products 
-      that bridge the gap between user experience and business requirements. A self-taught professional dedicated to
+      Experienced Full-Stack Developer with hands-on experience in the industry, building responsive, user-focused web applications 
+      using React, Next.js, and Node.js. Experienced in API development, modern frontend tooling, and real-world collaboration through a remote frontend internship.
+      Strong focus on clean UI, scalable architecture, and practical problem-solving. A self-taught professional dedicated to
        delivering impactful solutions.
     </p>
     
