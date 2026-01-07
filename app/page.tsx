@@ -19,7 +19,7 @@ export default async function Page() {
       priority
     />
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/70"></div>
+    <div className="absolute inset-0 bg-black/80"></div>
   </div>
   
   {/* Content Section */}
@@ -42,7 +42,7 @@ export default async function Page() {
       </h1>
     </div>
    
-    <p className="text-lg md:text-xl max-w-2xl mb-8 leading-relaxed">
+    <p className="text-lg md:text-xl max-w-2xl mb-8 leading-relaxed font-bold">
       Full-Stack Developer with hands-on experience building responsive, user-focused web applications using React, Next.js, and Node.js. 
       Skilled in API development, modern frontend tooling, and collaborating on real-world products through a remote frontend internship.
        Focused on clean UI, scalable architecture, and practical problem-solving.
