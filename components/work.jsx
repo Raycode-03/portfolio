@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger)
 const project_details = [
   {
     title: "KongaHub E-commerce App",
-    description: "Node.js | Express.js | MongoDB | EJS | CSS",
+    description: "A full-featured e-commerce platform where users can browse products, add to cart, and checkout. Built with Node.js, Express.js, MongoDB, and EJS",
     image: "/images/Kongahub.png",
     github_link: "https://github.com/Raycode-03/ray_project",
     live_link: "https://ray-project.onrender.com/kongahub/phones",
@@ -20,14 +20,14 @@ const project_details = [
   },
   {
     title: "Flowline Social App",
-    description: "Next.js | MongoDB | Cloudinary | Tailwind CSS",
+    description :"A social networking app where users can create profiles, share posts, like, comment, and engage with others. Built with Next.js, MongoDB, Cloudinary, and Tailwind CSS.",
     image: "/images/Flowline.png",
     github_link: "https://github.com/Raycode-03/Social-app",
     tech: ["Next.js", "MongoDB", "Cloudinary", "Tailwind CSS"]
   },
   {
     title: "BookHive Library App",
-    description: "React | Node.js | Express | MongoDB | JWT | Cron | Tailwind CSS | Cloudinary",
+    description: "A library management app to browse, reserve, and borrow books. Features JWT authentication, scheduled tasks, and cloud image storage. Built with React, Node.js, and Tailwind CSS.",
     image: "/images/BookHive.png",
     github_link: "https://github.com/Raycode-03/BookHive",
     live_link: "https://book-hive-steel.vercel.app/",
@@ -49,7 +49,7 @@ function Work() {
           scrollTrigger: {
             trigger: card,
             start: "top 80%",
-            toggleActions: "play none none none",
+            toggleActions: "play reverse play reverse"
           },
         })
       })
@@ -57,7 +57,7 @@ function Work() {
   }, [])
 
   return (
-    <div className=" bg-black/90 px-9 py-12 md:py-20 lg:py-24" id="projects" ref={containerRef}>
+    <div className=" bg-black/90 px-9 py-12 md:py-20 lg:py-24" id="project" ref={containerRef}>
       <h1 className="text-4xl font-bold uppercase text-center mb-12 text-white">
         Projects
       </h1>

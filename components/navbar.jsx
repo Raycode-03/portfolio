@@ -11,11 +11,11 @@ export default function Navbar() {
       {/* Logo */}
       <div className="flex items-center space-x-3">
         <Image
-          src={"/images/raycode.jpg"}
+          src={"/images/profileimage.jpeg"} 
           alt="Raycode Icon"
           width={40}
           height={40}
-          className="rounded-full"
+          className="rounded-full w-10 h-10"
         />
         <span className="text-xl font-semibold hidden sm:inline-block">RayCode</span>
       </div>

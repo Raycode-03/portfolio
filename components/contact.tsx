@@ -44,7 +44,7 @@ function Contact() {
 
   return (
     
- <Card className="bg-black/90  p-6 sm:p-10 lg:p-12 rounded-none shadow-lg w-full max-w-none border-none">
+ <Card className="bg-black/90  p-6 sm:p-10 lg:p-12 rounded-none shadow-lg w-full max-w-none border-none" id="contact">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
     
     {/* Left section */}
