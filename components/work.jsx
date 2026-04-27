@@ -23,7 +23,7 @@ const project_details = [
     title: "Hotel Booking Platform",
     description:
       "A full-stack hotel booking system with Mapbox integration for location-based browsing, authentication, and admin management features.",
-    image: "/images/hotel.png",
+    image: "/images/hotelxpace.png",
     github_link: "https://github.com/Raycode-03/HotelXpace",
     live_link: "https://hotel-xpace.vercel.app",
     tech: ["Next.js", "Nest.js", "Supabase", "Mapbox", "Tailwind CSS"],

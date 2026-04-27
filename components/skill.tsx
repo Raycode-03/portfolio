@@ -8,29 +8,18 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const skills = [
-  {
-    category: "Frontend",
-    items: [
+  
       { name: "HTML", src: "/logos/html.png" },
       { name: "CSS", src: "/logos/css-3.png" },
       { name: "JavaScript", src: "/logos/js.png" },
       { name: "React", src: "/logos/react.png" },
       { name: "Next.js", src: "/logos/nextjs.png" },
-    ],
-  },
-  {
-    category: "Backend",
-    items: [
+  
       { name: "Node.js", src: "/logos/node-js.png" },
       { name: "MongoDB", src: "/logos/mongo-db.png" },
       { name: "Supabase", src: "/logos/supabase.png" },
-    ],
-  },
-  {
-    category: "Tools",
-    items: [{ name: "Git", src: "/logos/git.png" }    ],
+    { name: "Git", src: "/logos/git.png" } ,
 
-  },
 ];
 function Skill() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -63,16 +52,13 @@ function Skill() {
 
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {skills.map((group, index) => (
+          {skills.map((skill, index) => (
             <div key={index} className="mb-8">
-              <h2 className="text-white text-xl font-semibold mb-4">
-                {group.category}
-              </h2>
 
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {group.items.map((skill, i) => (
+                
                   <div
-                    key={i}
+                    key={index}
                     className="bg-gray-800/50 rounded-lg p-4 text-center hover:bg-gray-700/50 transition-all duration-300"
                   >
                     <Image
@@ -84,7 +70,6 @@ function Skill() {
                     />
                     <span className="text-white font-medium">{skill.name}</span>
                   </div>
-                ))}
               </div>
             </div>
           ))}
